@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;  /* Relative positioning so footer can be absolutely positioned within it */
+}
+.contentArea {
+  flex: 1;
+}
+
+.start-date {
+  border: 2px solid green;
+}
+
+.end-date {
+  border: 2px solid red;
+}
+
+.footer {
+  background-color: #333;  /* Dark background for visibility */
+  color: #fff;  /* White text */
+  padding: 1rem 0;  /* Some vertical padding */
+  text-align: center;  /* Center the text */
+  position: absolute;  /* Stick to the bottom */
+  bottom: 0;
+  width: 100%;  /* Full width */
+}
+
+.menu-button {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.close-button {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

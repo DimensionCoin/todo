@@ -1,0 +1,50 @@
+[
+  {
+    "username": "nickv",
+    "password": "APP",
+    "tasks": [
+      {
+        "task": "gay shit",
+        "startDate": "2023-10-15T04:00:00.000Z",
+        "endDate": "2023-10-18T04:00:00.000Z"
+      },
+      {
+        "task": "more shit",
+        "startDate": "2023-10-15T04:00:00.000Z",
+        "endDate": "2023-10-20T04:00:00.000Z"
+      },
+      {
+        "task": "homework shit",
+        "startDate": "2023-10-17T04:00:00.000Z",
+        "endDate": "2023-10-20T04:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "username": "erin",
+    "password": "erin",
+    "tasks": [
+      {
+        "task": "shit",
+        "startDate": "2023-10-16T04:00:00.000Z",
+        "endDate": "2023-10-20T04:00:00.000Z"
+      },
+      {
+        "task": "homework",
+        "startDate": "2023-10-24T04:00:00.000Z",
+        "endDate": "2023-10-25T04:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "username": "jag",
+    "password": "jag",
+    "tasks": [
+      {
+        "task": "be the best girlfriend",
+        "startDate": "2023-10-16T04:00:00.000Z",
+        "endDate": "2023-10-20T04:00:00.000Z"
+      }
+    ]
+  }
+]
